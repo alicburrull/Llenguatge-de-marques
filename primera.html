@@ -50,11 +50,46 @@
                     d'Elon Musk,"xAI." disenyada per a «respondre preguntes amb una mica d'enginy» i amb «una vena
                     rebel»</p>
                     <img src="imatges/Grok.webp" width="100px" height="100px" title="Logo Grok" alt="Logo Grok"/>
+                <h2>Deixa la teva valoració</h2>
             </article>
         </section>
+        <form action="submit" method="post">
+            <label for="username">Nom:</label>
+
+            <input type="text" name="username" placeholder="Escriu el teu nom"><br><br>
+            <label for="correu">Correu electrònic:</label>
+            <input type="email" name="email" placeholder="exemple@gmail.com"><br><br>
+
+
+             <label for="IA">Quina IA vols valorar?</label>
+
+            <select name="IA">
+             <option value="LovartAi">LovartAi</option>
+             <option value="ChatGPT">ChatGPT</option>
+             <option value="Grok">Grok</option>
+            </select><br><br>
+
+
+            <label for="ValoracióDelUsuari">Com valores aquesta IA?</label><br><br>
+
+            <input type="radio" name="Excel·lent" value="opcio1"> Excel·lent
+            <input type="radio" name="Bona" value="opcion2"> Bona
+            <input type="radio" name="Millorable" value="opcion2"> Millorable <br><br>
+
+            <label for="mensaje">Comentari:</label><br>
+            <textarea name="mensaje" rows="5" cols="40">Escriu aquí els teus comentaris...</textarea><br><br>
+
+
+            <input type="checkbox" name="opciones" value="opcion1"> Vull rebre novetats sobre la IA<br>
+
+            <br><input type="submit" value="Enviar">  
+
+        </form>
         <section>
 
+
         </section>
+
         <section>
 
         </section>
